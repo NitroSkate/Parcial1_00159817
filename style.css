@@ -1,0 +1,80 @@
+body{
+    background-color: #000000;
+}
+
+.nav{
+    width: 100%;
+    height: 56px;
+}
+
+h1{
+    font-family: 'Monoton', cursive;
+}
+
+.h{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    list-style: none;
+    background-color: #000000;
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+
+.img{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 50px;
+}
+
+.ah{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url("img/concierto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 0em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.f6{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #fff;
+}
+
+.f0{
+    width:100%;
+    height: 50%;
+}
+
+.f1{
+    height: 100%;
+    width: 100%;
+}
+
+.form{
+    background-image: url("img/contacus.jpg");
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 1em;
+}
+
+.bf{
+    margin-top: 1em;
+}
+
+footer{
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
